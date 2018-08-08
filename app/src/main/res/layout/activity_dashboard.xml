@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+
+    android:orientation="vertical">
+
+    <include layout="@layout/parent_toolbar"></include>
+
+    <com.artproficiencyapp.common.RegularTextview
+        android:id="@+id/tvUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/edt_h_w_40"
+        android:textColor="@color/black_alpha_80"
+        android:textSize="@dimen/font_size_26" />
+
+
+    <com.artproficiencyapp.common.RegularTextview
+        android:id="@+id/developemrnt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/edt_h_w_40"
+        android:textColor="@color/black_alpha_80"
+        android:textSize="@dimen/font_size_26" />
+
+
+
+    <Button
+        android:id="@+id/btnLogoutStudent"
+        android:layout_width="170dp"
+        android:layout_height="52dp"
+        android:layout_gravity="center"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/btn_signup"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Logout"
+
+        android:textColor="@color/White" />
+
+</LinearLayout>

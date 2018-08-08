@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RadioGroup
+        android:id="@+id/radioGroupEmbryologyQuestionSliderOfPercentageWithOneButton"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rbEmbryologyQuestionSliderSliderOfPercentageWithOneButtonOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:gravity="center"
+            android:text="xcvxv" />
+
+        <RadioButton
+            android:id="@+id/rbEmbryologyQuestionSliderSliderOfPercentageWithOneButtonTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:gravity="center"
+            android:text="haksdfhkasdh" />
+
+        <RadioButton
+            android:id="@+id/rbEmbryologyQuestionSliderSliderOfPercentageWithOneButtonThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:gravity="center"
+            android:text="hakfhaksfh" />
+
+
+
+
+    </RadioGroup>
+</LinearLayout>

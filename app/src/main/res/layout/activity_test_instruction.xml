@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    tools:context="com.artproficiencyapp.activity.TestInstructionActivity">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+       android:layout_gravity="center"
+       android:gravity="center"
+       android:padding="@dimen/padding_5"
+       android:background="@color/colorAccent">
+
+       <ImageView
+           android:id="@+id/TestInstructionBack"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="2dp"
+           android:padding="@dimen/padding_5"
+           android:background="@drawable/back"/>
+
+       <com.artproficiencyapp.common.RegularTextview
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="@string/test_instruction"
+           android:layout_gravity="center"
+           android:gravity="center"
+           android:layout_weight="1"
+           android:textColor="@color/White"
+           android:textStyle="bold"
+           android:textSize="@dimen/font_size_18"
+           />
+
+   </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/padding_5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="@dimen/padding_5"
+                android:layout_marginStart="@dimen/padding_5"
+                android:layout_marginEnd="@dimen/padding_5">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+            <com.github.rtoshiro.view.video.FullscreenVideoLayout
+                android:id="@+id/videoview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+            </FrameLayout>
+            </LinearLayout>
+            <!--<com.devbrackets.android.exomedia.ui.widget.VideoView-->
+                <!--android:id="@+id/video_view"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="200dp"-->
+                <!--android:layout_marginEnd="@dimen/padding_8"-->
+                <!--android:layout_marginStart="@dimen/padding_5"-->
+                <!--android:layout_marginTop="@dimen/padding_5"-->
+                <!--app:useDefaultControls="true"/>-->
+            <com.artproficiencyapp.common.RegularTextview
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/margin_top_5"
+                android:background="@color/color_app_base"
+                android:gravity="center"
+                android:text="@string/instruction_questions"
+                android:textColor="@color/White"
+                android:textColorHint="@color/White"
+                android:textSize="@dimen/font_size_16"
+                android:textStyle="normal" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rcvTestInstruction"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/margin_top_10"
+                android:overScrollMode="never"
+                tools:listitem="@layout/item_question_test" />
+
+
+            <Button
+                android:id="@+id/btnTestInstruction"
+                android:layout_width="170dp"
+                android:layout_height="52dp"
+                android:layout_gravity="center"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/btn_signup"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/start_"
+                android:layout_marginBottom="@dimen/margin_top_20"
+                android:textColor="@color/White" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

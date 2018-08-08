@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1">
+
+
+    <RadioGroup
+        android:id="@+id/radioGroupEmbryologyQuestionThreeOfOneSingleSelectionOtherButton"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rbEmbryologyQuestionThreeOfOneSingleSelectionOtherButtonOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:gravity="center"
+            android:text="nasldkfnaskldfnkasnfkasndfkjansdkfjnaskjfnaksnjk" />
+
+        <RadioButton
+            android:id="@+id/rbEmbryologyQuestionThreeOfOneSingleSelectionOtherButtonTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:gravity="center"
+            android:text="haksdfhkasdh" />
+
+        <RadioButton
+            android:id="@+id/rbEmbryologyQuestionThreeOfOneSingleSelectionOtherButtonThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:gravity="center"
+            android:text="hakfhaksfh" />
+
+        <RadioButton
+            android:id="@+id/rbEmbryologyQuestionThreeOfOneSingleSelectionOtherButtonOther"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:gravity="center"
+            android:text="Other" />
+    </RadioGroup>
+
+
+</LinearLayout>
+

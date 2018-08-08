@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/nav_notification"
+            android:icon="@drawable/notification"
+            android:title="@string/notification" />
+        <item
+            android:id="@+id/nav_testMenu"
+            android:icon="@drawable/test"
+            android:title="@string/test_menu" />
+        <item
+            android:id="@+id/nav_inbox"
+            android:icon="@drawable/inbox"
+            app:showAsAction="always"
+            app:actionLayout="@layout/menu_counter"
+            android:title="@string/inbox" />
+
+        <item
+            android:id="@+id/nav_labStatistics"
+            android:icon="@drawable/science"
+            android:title="@string/lab_statistics" />
+        <item
+            android:id="@+id/nav_performance_report"
+            android:icon="@drawable/science"
+            android:title="@string/performance_report" />
+        <item
+            android:id="@+id/nav_global_Map"
+            android:icon="@drawable/position"
+            android:title="@string/global_competency_map" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/settings"
+            android:title="@string/setting" />
+        <item
+            android:id="@+id/nav_aboutsUs"
+            android:icon="@drawable/speech_bubble"
+            android:title="@string/about_us" />
+
+
+    </group>
+
+
+</menu>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.artproficiencyapp.activity.DirectorProfileActivity">
+
+    <include
+        layout="@layout/parent_toolbar"/>
+
+
+    <ScrollView
+        android:id="@+id/SvDirectorScroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+
+                android:padding="@dimen/padding_10">
+
+                <com.facebook.drawee.view.SimpleDraweeView
+                    android:id="@+id/round_border"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_marginStart="@dimen/margin_left_10"
+                    android:layout_marginTop="@dimen/margin_left_10"
+                    app:roundAsCircle="true"
+                    fresco:roundBottomLeft="true"
+                    fresco:roundBottomRight="true" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/margin_left_10"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <com.artproficiencyapp.common.RegularTextview
+                        android:id="@+id/txtDirectorName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="@dimen/margin_left_20"
+                        android:layout_weight="1"
+                        android:gravity=""
+                        android:text="@string/director_name"
+                        android:textColor="@color/Black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <com.artproficiencyapp.common.RegularTextview
+                        android:id="@+id/txtDirectorDesignation"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/margin_left_20"
+                        android:layout_marginTop="@dimen/margin_left_20"
+                        android:layout_weight="1"
+                        android:text="@string/senior"
+                        android:textColor="#47555B"
+                        android:textSize="18sp"
+                        android:textStyle="normal" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <com.artproficiencyapp.common.RegularTextview
+                    android:id="@+id/txtDirectorEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/margin_left_20"
+                    android:layout_weight="1"
+                    android:padding="@dimen/margin_left_5"
+                    android:text="@string/director_name"
+                    android:textColor="#D7DADB"
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+
+                <com.artproficiencyapp.common.RegularTextview
+                    android:id="@+id/txtDirectorNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginEnd="@dimen/margin_left_10"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:padding="@dimen/margin_left_5"
+                    android:text="@string/number"
+                    android:textColor="#D7DADB"
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+
+            <com.artproficiencyapp.common.RegularTextview
+                android:id="@+id/txtDirectorAddress"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginEnd="@dimen/margin_left_15"
+                android:layout_marginStart="@dimen/margin_left_15"
+                android:layout_marginTop="@dimen/margin_top_10"
+                android:background="@drawable/edtaddress_round_corner"
+                android:gravity="center"
+                android:text="@string/address"
+                android:textColor="@color/Black"
+                android:textSize="@dimen/font_size_16"
+                android:textStyle="bold" />
+
+            <fragment
+                android:id="@+id/mapFragment"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:layout_marginTop="@dimen/margin_left_10"
+                android:tag="tag_map_fragment" />
+
+
+            <Button
+                android:id="@+id/btnForgotPassword"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_marginBottom="@dimen/margin_top_35"
+                android:layout_marginEnd="30dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/btn_director"
+                android:padding="15dp"
+                android:text="@string/report_agencies"
+                android:textColor="@color/White"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

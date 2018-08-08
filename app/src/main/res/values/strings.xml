@@ -1,0 +1,294 @@
+<resources>
+    <string name="app_name">ART Compass</string>
+
+
+    <string name="facebook_app_id">238162510265035</string>
+    <string name="fb_login_protocol_scheme">fb1697199283702605</string>
+
+    <string name="desc_fingerprint">Authenticate using fingerprint to login</string>
+
+    <!--Sign up screen fields-->
+    <string name="signup_title">Sign Up</string>
+    <string name="signup_director_title">Director</string>
+    <string name="signup_student_title">Student</string>
+    <string name="signup_name">Name</string>
+    <string name="signup_email">Email</string>
+    <string name="signup_pho_num">Phone No.</string>
+    <string name="signup_choose_director">Choose Director</string>
+    <string name="signup_designation">Designation</string>
+    <string name="signup_level_selection">Level Selection</string>
+    <string name="signup_membership_society">Membership society selection</string>
+    <string name="signup_password">Password</string>
+    <string name="signup_confirm_password">Confirm Password</string>
+    <string name="signup_pwd_msg">A-Z, a-z and one special character(@&amp;_#*!)</string>
+    <string name="signup_msg">Already have an account ? SIGN IN</string>
+
+    <string-array name="level_selection">
+        <item>Level 1</item>
+        <item>Level 2</item>
+        <item>Level 3</item>
+        <item>Level 4</item>
+        <item>Level 5</item>
+        <item>Level 6</item>
+    </string-array>
+
+    <string-array name="membership_selection">
+        <item>Membership society 1</item>
+        <item>Membership society 2</item>
+        <item>Membership society 3</item>
+        <item>Membership society 4</item>
+        <item>Membership society 5</item>
+        <item>Membership society 6</item>
+    </string-array>
+
+    <!--Error messages-->
+    <string name="error_name">Please enter your name</string>
+    <string name="error_email">Please enter email address</string>
+    <string name="error_ph_num">Please enter your phone number</string>
+    <string name="error_designation">Please enter your designation</string>
+    <string name="error_pwd">Please enter the password</string>
+    <string name="error_confirm_pwd">Please enter confirm password</string>
+    <string name="error_valid_email">Please enter a valid email address </string>
+    <string name="error_short_ph_num">The phone number is too short</string>
+    <string name="error_pwd_diff">Passwords are different, please enter same passwords</string>
+    <string name="error_level_selection">Please select your level</string>
+    <string name="error_membership_selection">Please select your membership society </string>
+    <string name="error_report_selection">Please select Report Agencies </string>
+    <string name="error_pwd_msg">Password must be at least 6 characters and one special character</string>
+    <string name="error_pwd_invalid_msg">Password must contain one capital letter, one small letter and one special character</string>
+    <string name="error_email_not_verified">You have not verified your email address, Please verify first.</string>
+    <string name="error_otp_not_verified">You have not verified your phone number, Please verify first.</string>
+    <string name="error_director_not_verified">Director verification is pending</string>
+    <string name="error_director_not_chosen">Please select your director</string>
+
+
+    <string name="error_old_password">Please Enter Your Old Password</string>
+    <string name="error_new_password">Please Enter Your new Password</string>
+    <string name="error_conform_password">Please Enter Your Conform Password</string>
+
+    <!--Edit profile screen fields-->
+    <string name="edit_profile_title">Edit Profile</string>
+    <string name="edit_profile_dir_name">Directory Name</string>
+    <string name="edit_profile_add_photos">ADD PHOTOS</string>
+    <string name="edit_profile_report">Report Agencies</string>
+    <string name="edit_profile_done">UPDATE</string>
+    <string name="edit_profile_msg">Pick Image</string>
+
+
+    <!--Edit profile screen fields-->
+
+    <string name="edit_profile_stu_name">Student Name</string>
+    <string name="edit_profile_stu_email">Email</string>
+
+
+    <!--Dhaval changes-->
+    <string name="font_sink_sans_medium" translatable="false">Roboto-Medium.ttf</string>
+    <string name="font_sink_sans_bold" translatable="false">Roboto-Bold.ttf</string>
+    <string name="font_sink_sans_regular" translatable="false">Roboto-Regular.ttf</string>
+    <string name="toast_time_out" translatable="false">Please try again ,There is network error</string>
+    <string name="toast_try_after_sometimes" translatable="false">Something went wrong please try after sometimes..</string>
+    <string name="toast_something_wrong" translatable="false">Something went wrong please try again..</string>
+
+    <!--Shared Preference Keys-->
+    <string name="app_shared_pref" translatable="false">ArtProficiency_SharedPref</string>
+    <string name="is_login" translatable="false">is_login</string>
+    <string name="is_user_types" translatable="false">is_user_type</string>
+    <string name="token" translatable="false">token</string>
+    <string name="selected_filed" translatable="false">selected_field</string>
+    <string name="selected_id" translatable="false">selected_id</string>
+    <string name="user_data" translatable="false">user_data</string>
+    <string name="user_reg_data" translatable="false">user_reg_data</string>
+    <string name="user_login_data" translatable="false">user_login_data</string>
+    <string name="is_user_registered" translatable="false">is_user_registered</string>
+    <string name="is_intro_visited" translatable="false">is_intro_visited</string>
+    <string name="email" translatable="false">email</string>
+    <string name="password" translatable="false">Password</string>
+    <string name="in_app" translatable="false">in_app</string>
+    <string name="remember_credential" translatable="false">remember_credential</string>
+    <string name="user_types" translatable="false">user_types</string>
+    <string name="name" translatable="false">name</string>
+    <string name="user_email">user_email</string>
+    <string name="user_password">user_password</string>
+    <string name="key_is_finger_enabled">key_is_finger_enabled</string>
+
+    <!--network-->
+    <string name="toast_net_work" translatable="false">Please try again ,Network not available</string>
+    <string name="toast_email" translatable="false">Please enter your email address</string>
+    <string name="toast_email_valid" translatable="false">Please enter valid email address</string>
+    <string name="toast_password" translatable="false">Please enter your password</string>
+
+    <!--test-->
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="done">DONE</string>
+    <string name="previous">PREVIOUS</string>
+    <string name="start">DONE</string>
+    <string name="slide_1_title">Hello Food!</string>
+    <string name="slide_1_desc">The easiest way to order food from your favourite restaurant!</string>
+    <string name="slide_2_title">Movie Tickets</string>
+    <string name="slide_2_desc">Book movie tickets for your family and friends!</string>
+    <string name="slide_3_title">Great Discounts</string>
+    <string name="slide_3_desc">Best discounts on every single service we offer!</string>
+    <string name="slide_4_title">World Travel</string>
+    <string name="slide_4_desc">Book tickets of any transportation and travel the world!</string>
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+    <!--frogetpassword-->
+    <string name="enter_your_email_below_to_receive_the_instructions_to_reset_your_password">Enter your email below to receive the instructions to reset your password</string>
+    <string name="forget_password">FORGOT PASSWORD</string>
+    <string name="submit">SUBMIT</string>
+    <string name="enter_your_email">Enter your email</string>
+    <!--Login Screen-->
+    <string name="signup_Msg">Don\'t have an account ? SIGNUP</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="scan_your_finger_print_to_login">Touch ID to Login</string>
+    <string name="sigin_title">SIGN IN</string>
+    <string name="update">Update</string>
+    <string name="signin_with_fb">LogIn With Facebook</string>
+
+    <!--Verification activity-->
+    <string name="varification_code_sent_to_mobile_number">Verification code sent to mobile number</string>
+    <string name="dont_receive_code">Didn\'t receive the code? RESEND</string>
+    <string name="verify">VERIFY</string>
+    <string name="please_wait_auto_detecting_code">Please wait auto detecting code</string>
+    <string name="please_enter_verification">Please Enter Verification Code</string>
+
+    <!--Director Profile-->
+    <string name="director_profile">Director Profile</string>
+    <string name="director_name">Director Name</string>
+    <string name="senior">Senior</string>
+    <string name="email_">Director_123@gmail.com</string>
+    <string name="number"> + 1234567890</string>
+    <string name="report_agencies">Report Agencies: SART #</string>
+    <string name="address">Address</string>
+    <!--Director SignUp-->
+    <string name="level_selection">Level selection</string>
+    <string name="member_selection">MemberShip society selection</string>
+    <string name="report_agenciess">Report Agencies</string>
+    <string name="title_activity_dash_bord_dire_stu">DashBordActivityDIreStu</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!--Dialog Message-->
+    <string name="are_you_log_out">Are you sure want log out?</string>
+    <string name="dialog_yes">Yes</string>
+    <string name="dialog_no">No</string>
+    <!-- Profile Activity -->
+    <string name="test_completed">Test Completed</string>
+    <string name="test_not_attemp">Test Not Attempt</string>
+    <string name="test_failure">Test Failure</string>
+    <!--<string name="search">Search</string>-->
+
+
+    <!--<Navigation drawer name>-->
+    <string name="home">Home</string>
+    <string name="notification">Notification</string>
+    <string name="test_menu">Test menu</string>
+    <string name="inbox">Inbox</string>
+    <string name="lab_statistics">Lab Statistics</string>
+    <string name="global_competency_map">Global Competency Map</string>
+    <string name="setting">Settings</string>
+    <string name="about_us">About us</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="search">Search</string>
+    <string name="Edit">Edit</string>
+    <string name="performance_report">Performance Report</string>
+    <!--<Embryology >-->
+    <string name="no_test_available">No Test Available</string>
+    <string name="finish">Finish</string>
+    <string name="expert_level_you_have_7_seconds_to_score_each_picure">Expert level: You have 7 seconds to score each picure</string>
+    <string name="or">OR</string>
+
+    <!--<finish exam>-->
+    <string name="finish_exam">Finish Exam</string>
+    <string name="results">Results</string>
+
+    <!--<test instruction>-->
+    <string name="test_instruction">Test Instructions</string>
+    <string name="instruction_questions">Instruction Questions</string>
+    <string name="start_">Start</string>
+    <string name="under_development">Under Development</string>
+
+    <!--<network connection dialog>-->
+    <string name="no_internet_connection">No Internet Connection</string>
+    <string name="exit">Exit</string>
+
+
+    <!--<Drawer item >-->
+    <string name="home_student">Home Student</string>
+    <string name="home_director">Home Director</string>
+
+    <string name="test_menu_">Test Menu</string>
+
+    <string name="global_company_map">Global Competency Map</string>
+
+    <string name="abouts">Abouts Us</string>
+    <!--image edititng-->
+
+
+    <string name="save">Save</string>
+    <string name="clear_all">Clear All</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="upload_dialog_title">Upload Image</string>
+    <string name="upload_picker_title">Select Picture</string>
+    <string name="directory_create_fail">Failed to create directory</string>
+    <string name="access_media_permissions_msg">To attach photos, we need to access media on your device</string>
+    <string name="continue_txt">Continue</string>
+    <string name="not_now">NOT NOW</string>
+    <string name="media_access_denied_msg">You denied storage access, no photos will be added.</string>
+
+    <string name="ic_close">"\ue918"</string>
+    <string name="ic_text">"\ue945"</string>
+    <string name="ic_draw">""\ue944</string>
+    <string name="ic_images">"\ue949"</string>
+    <string name="ic_save">"\ue946"</string>
+    <string name="ic_clear_all">"\ue947"</string>
+    <string name="ic_continue">"\ue948"</string>
+    <string name="ic_delete">"\ue92c"</string>
+    <string name="choose_from_gallery">Choose From Gallery</string>
+    <string name="choose_from_camera">Choose From Camera</string>
+    <string name="undo">Undo</string>
+    <string name="erase">Erase</string>
+
+
+    <!--<Setting screen>-->
+    <string name="edit_profile">Edit Profile</string>
+    <string name="notification_">Notification</string>
+    <string name="night_mode">Night Mode</string>
+    <string name="replay_tutorial">Replay Tutorial</string>
+    <string name="invite_friend">Invite Friends</string>
+    <string name="change_password">Change Password</string>
+    <string name="help_feedback">Help &amp; Feedback</string>
+    <string name="terms_condition">Terms &amp; Conditions</string>
+    <string name="abouts_">Abouts us</string>
+    <string name="logout_">Logout</string>
+
+
+    <!--<Change Password>-->
+    <string name="old_password">Old Password</string>
+    <string name="New_password">New Password</string>
+    <string name="conform_password">Conform Password</string>
+
+    <!-- Student Dashboard Fragment-->
+    <string name="lab_director">Lab Director</string>
+    <string name="test_menu_redirection">Test Menu \n Redirection</string>
+    <string name="global_test_assement_map"> Global Test \n  Assement Map</string>
+
+
+    <!--<results>-->
+    <string name="total_question_attemped">Total Question Attempted</string>
+    <string name="total_correct_answer">Total Correct  Answer</string>
+    <string name="total_obtained">Total Obtained</string>
+    <string name="grade">Grade</string>
+    <string name="ok">OK</string>
+</resources>

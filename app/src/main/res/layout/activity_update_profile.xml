@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+    android:orientation="vertical">
+
+    <include layout="@layout/parent_toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fadeScrollbars="true"
+        android:scrollbarStyle="outsideOverlay">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_10">
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/padding_22" />
+
+            <RelativeLayout
+                android:layout_width="@dimen/profile_circle_h_w"
+                android:layout_height="@dimen/profile_circle_h_w"
+                android:layout_gravity="center"
+                android:background="@drawable/dashed_circle">
+
+                <com.facebook.drawee.view.SimpleDraweeView
+                    android:id="@+id/imgProfileView"
+                    android:layout_width="@dimen/profile_img_h_w"
+                    android:layout_height="@dimen/profile_img_h_w"
+                    fresco:placeholderImage="@drawable/ic_add_photo"
+                    android:layout_centerInParent="true"
+                    fresco:roundAsCircle="true" />
+
+            </RelativeLayout>
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/padding_18" />
+
+            <EditText
+                android:id="@+id/etDirUpdateName"
+                style="@style/edt_style"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:drawableLeft="@drawable/ic_name"
+                android:hint="@string/edit_profile_dir_name"
+                android:inputType="textCapSentences"
+                android:padding="@dimen/padding_16" />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/padding_12" />
+
+            <EditText
+                android:id="@+id/etDirUpdateDesignation"
+                style="@style/edt_style"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:drawableLeft="@drawable/ic_designation_large"
+                android:hint="@string/signup_designation"
+                android:inputType="textEmailAddress"
+                android:padding="@dimen/padding_16" />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/padding_12" />
+
+            <EditText
+                android:id="@+id/etDirUpdateEmail"
+                style="@style/edt_style"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:drawableLeft="@drawable/ic_email_large"
+                android:hint="@string/signup_email"
+                android:editable="false"
+                android:inputType="textEmailAddress"
+                android:padding="@dimen/padding_16" />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/padding_12" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/edt_h_w_56"
+                android:focusable="false"
+                android:background="@drawable/edt_round_corner">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/padding_10"
+                    android:src="@drawable/ic_call_large" />
+
+                <!--<Spinner-->
+                    <!--android:id="@+id/spDirEditCountryCode"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_weight="0.40"/>-->
+
+                <EditText
+                    android:id="@+id/etDirUpdatePhoNum"
+                    style="@style/edt_style"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/edt_h_w_56"
+                    android:layout_weight="0.60"
+                    android:background="@null"
+                    android:digits="0123456789"
+                    android:editable="false"
+                    android:layout_gravity="center"
+                    android:drawablePadding="0dp"
+                    android:hint="@string/signup_pho_num"
+                    android:inputType="none"
+                    android:focusable="false"
+                    android:maxLength="16"
+                    android:padding="@dimen/padding_16" />
+            </LinearLayout>
+
+
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/padding_12" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/edt_h_w_56"
+                android:background="@drawable/edt_round_corner">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/padding_10"
+                    android:src="@drawable/ic_membership_large" />
+
+                <Spinner
+                    android:id="@+id/spDirUpdateReportAgency"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/edt_h_w_56" />
+
+            </LinearLayout>
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/padding_26" />
+
+            <Button
+                android:id="@+id/btnDirUpdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_signup"
+                android:text="@string/edit_profile_done"
+                android:textAllCaps="true"
+                android:layout_marginBottom="@dimen/margin_left_15"
+                android:textColor="@color/White"
+                android:textSize="@dimen/font_size_18" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

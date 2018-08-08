@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
+
+    <com.artproficiencyapp.common.RegularTextview
+        android:id="@+id/row_expanable_third_level"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:gravity="left|center"
+        android:padding="10dp"
+        android:text="dd"
+        android:drawablePadding="@dimen/margin_top_10"
+        android:drawableLeft="@drawable/excpandable_sidearrow"
+        android:textColor="@color/color_app_base"
+        android:textSize="16sp" />
+</RelativeLayout>

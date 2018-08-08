@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="dots_height">30dp</dimen>
+    <dimen name="dots_margin_bottom">20dp</dimen>
+    <dimen name="img_width_height">120dp</dimen>
+    <dimen name="slide_title">30dp</dimen>
+    <dimen name="slide_desc">16dp</dimen>
+    <dimen name="desc_padding">40dp</dimen>
+
+    <dimen name="margin_top_5">5dp</dimen>
+    <dimen name="margin_top_10">10dp</dimen>
+    <dimen name="margin_top_15">15dp</dimen>
+    <dimen name="margin_top_20">20dp</dimen>
+    <dimen name="margin_top_25">25dp</dimen>
+    <dimen name="margin_top_30">30dp</dimen>
+    <dimen name="margin_top_35">35dp</dimen>
+
+    <dimen name="margin_left_5">5dp</dimen>
+    <dimen name="margin_left_10">10dp</dimen>
+    <dimen name="margin_left_15">15dp</dimen>
+    <dimen name="margin_left_20">20dp</dimen>
+
+    <dimen name="margin_right_5">5dp</dimen>
+    <dimen name="margin_right_10">10dp</dimen>
+    <dimen name="margin_right_15">15dp</dimen>
+    <dimen name="margin_right_20">20dp</dimen>
+    <dimen name="margin_right_30">30dp</dimen>
+    <!--Dhaval changes end-->
+
+
+    <dimen name="font_size_10">10sp</dimen>
+    <dimen name="font_size_12">12sp</dimen>
+    <dimen name="font_size_14">14sp</dimen>
+    <dimen name="font_size_16">16sp</dimen>
+    <dimen name="font_size_18">18sp</dimen>
+    <dimen name="font_size_20">20sp</dimen>
+    <dimen name="font_size_22">22sp</dimen>
+    <dimen name="font_size_24">24sp</dimen>
+    <dimen name="font_size_26">26sp</dimen>
+    <dimen name="font_size_28">28sp</dimen>
+    <dimen name="font_size_30">30sp</dimen>
+    <dimen name="font_size_32">32sp</dimen>
+    <dimen name="font_size_34">34sp</dimen>
+    <dimen name="font_size_36">36sp</dimen>
+    <dimen name="font_size_38">38sp</dimen>
+    <dimen name="font_size_40">40sp</dimen>
+
+    <dimen name="img_size_18">18dp</dimen>
+    <dimen name="img_size_20">20dp</dimen>
+    <dimen name="img_size_22">22dp</dimen>
+    <dimen name="img_size_24">24dp</dimen>
+    <dimen name="img_size_26">26dp</dimen>
+    <dimen name="img_size_28">28dp</dimen>
+    <dimen name="img_size_30">30dp</dimen>
+
+    <dimen name="toolbar_back_h_w_30">30dp</dimen>
+    <dimen name="toolbar_back_h_w_32">32dp</dimen>
+    <dimen name="toolbar_back_h_w_34">34dp</dimen>
+    <dimen name="toolbar_back_h_w_36">36dp</dimen>
+    <dimen name="toolbar_back_h_w_38">38dp</dimen>
+    <dimen name="toolbar_back_h_w_40">40dp</dimen>
+
+    <dimen name="padding_5">5dp</dimen>
+    <dimen name="padding_8">8dp</dimen>
+    <dimen name="padding_10">10dp</dimen>
+    <dimen name="padding_12">12dp</dimen>
+    <dimen name="padding_14">14dp</dimen>
+    <dimen name="padding_16">16dp</dimen>
+    <dimen name="padding_18">18dp</dimen>
+    <dimen name="padding_20">20dp</dimen>
+    <dimen name="padding_22">22dp</dimen>
+    <dimen name="padding_24">24dp</dimen>
+    <dimen name="padding_26">26dp</dimen>
+    <dimen name="padding_28">28dp</dimen>
+    <dimen name="padding_30">30dp</dimen>
+    <dimen name="padding_32">32dp</dimen>
+
+    <dimen name="edt_h_w_40">40dp</dimen>
+    <dimen name="edt_h_w_42">42dp</dimen>
+    <dimen name="edt_h_w_44">44dp</dimen>
+    <dimen name="edt_h_w_46">46dp</dimen>
+    <dimen name="edt_h_w_48">48dp</dimen>
+    <dimen name="edt_h_w_50">50dp</dimen>
+    <dimen name="edt_h_w_52">52dp</dimen>
+    <dimen name="edt_h_w_54">54dp</dimen>
+    <dimen name="edt_h_w_56">56dp</dimen>
+    <dimen name="edt_h_w_58">58dp</dimen>
+    <dimen name="edt_h_w_60">60dp</dimen>
+
+    <dimen name="profile_circle_h_w">140dp</dimen>
+    <dimen name="profile_img_h_w">137dp</dimen>
+
+    <dimen name="finger_scan_h_w">80dp</dimen>
+
+    <dimen name="splash_logo_h_w">300dp</dimen>
+
+
+
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="nav_header_height_">195dp</dimen>
+
+</resources>

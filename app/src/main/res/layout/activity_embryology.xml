@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:visibility="visible">
+
+    <include layout="@layout/parent_toolbar"/>
+    <TextView
+        android:id="@+id/notAvailable"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/no_test_available"
+        android:textColor="@color/Black"
+        android:textSize="@dimen/font_size_18"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+
+    <Button
+        android:id="@+id/finish"
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/_20sdp"
+        android:background="@drawable/btn_signup"
+        android:text="@string/finish"
+        android:textColor="@color/White"
+        android:visibility="gone" />
+
+    <ScrollView
+        android:id="@+id/mainViewFragmentEmbryology"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <ProgressBar
+                android:id="@+id/progressBarFragmentEmbryology"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:progressBackgroundTint="@color/color_app_base" />
+
+            <!--<ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_22sdp"
+                android:layout_toRightOf="@+id/progressBarFragmentEmbryology"
+                android:src="@drawable/ic_dot"
+                android:tint="@color/color_app_base" />-->
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_20sdp" />
+
+            <com.artproficiencyapp.common.RegularTextview
+                android:id="@+id/tvFragmentEmbryologyQuestionTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:drawableLeft="@drawable/ic_dot"
+                android:drawablePadding="@dimen/_10sdp"
+                android:drawableTint="@color/color_app_base"
+                android:gravity="left"
+                android:paddingLeft="@dimen/_10sdp"
+                android:text="@string/expert_level_you_have_7_seconds_to_score_each_picure"
+                android:textColor="@color/Black"
+                android:textSize="@dimen/font_size_12" />
+
+            <ImageButton
+                android:id="@+id/btnEmbrylogyActivityEdit"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_gravity="right"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:gravity="center"
+                android:background="@drawable/pencil"
+                android:visibility="invisible" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_180sdp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginTop="3dp"
+                android:background="#D7B5F0"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <!-- <android.support.v4.view.ViewPager
+                     android:id="@+id/viewPagerFragmentEmbryology"
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent" />-->
+
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/viewPagerFragmentEmbryology"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="gone" />
+
+
+                <ImageView
+                    android:id="@+id/ivFragmentEmbryologyQuestionImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="@dimen/_20sdp"
+                    android:layout_marginLeft="@dimen/_30sdp"
+                    android:layout_marginRight="@dimen/_30sdp"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:scaleType="fitXY"
+                    android:visibility="visible" />
+            </LinearLayout>
+
+            <include
+                android:id="@+id/three_option_single_selection"
+                layout="@layout/three_of_one_button_single_selection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:visibility="gone" />
+
+            <include
+                android:id="@+id/questionSliderWithOptionFragmentEmbryology"
+                layout="@layout/question_seekbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+
+            <include
+                android:id="@+id/fiveOptionSingleSelection"
+                layout="@layout/five_option_single_selected"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+
+            <include
+                android:id="@+id/increamentDecrementFragmentEmbryology"
+                layout="@layout/question_countbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+
+            <include
+                android:id="@+id/sliderWithOptionWithNoButton"
+                layout="@layout/slider_with_option_and_no_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+
+            <include
+                android:id="@+id/sliderWithOptionWithOneButton"
+                layout="@layout/slider_with_option_and_one_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+
+            <include
+                android:id="@+id/sliderOfPercentageWithOneButton"
+                layout="@layout/slider_of_percentage_and_one_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.artproficiencyapp.common.RegularTextview
+                    android:id="@+id/tvTimeCounter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:padding="@dimen/_8sdp"
+                    android:textColor="@color/color_app_base"
+                    android:textSize="@dimen/_18sdp" />
+
+                <Button
+                    android:id="@+id/btnFragmentEmbryologyNext"
+                    android:layout_width="@dimen/_120sdp"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_margin="@dimen/_20sdp"
+                    android:background="@drawable/btn_signup"
+                    android:text="@string/next"
+                    android:textColor="@color/White" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+
+
+

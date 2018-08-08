@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1">
+
+
+    <RadioGroup
+        android:id="@+id/radioGroupEmbryologyQuestionSeekBarFeedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rbEmbryologyQuestionSeekBarFeedbackOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:gravity="center"
+            android:padding="@dimen/_15sdp"
+            android:button="@android:color/transparent"
+            android:background="@drawable/custume_radio_button_background"
+            android:text="dgfdgfdgfg" />
+
+        <RadioButton
+            android:id="@+id/rbEmbryologyQuestionSeekBarFeedbackTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:gravity="center"
+            android:padding="@dimen/_15sdp"
+            android:button="@android:color/transparent"
+            android:background="@drawable/custume_radio_button_background"
+            android:text="haksdfhkasdh" />
+
+        <RadioButton
+            android:id="@+id/rbEmbryologyQuestionSeekBarFeedbackThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:gravity="center"
+            android:padding="@dimen/_15sdp"
+            android:button="@android:color/transparent"
+            android:background="@drawable/custume_radio_button_background"
+            android:text="hakfhaksfh" />
+
+        <RadioButton
+            android:id="@+id/rbEmbryologyQuestionSeekBarFeedbackFour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:gravity="start"
+            android:padding="@dimen/_15sdp"
+            android:button="@android:color/transparent"
+            android:background="@drawable/custume_radio_button_background"
+            android:text="ahdjfhakdsfhaksfhakh" />
+
+        <RadioButton
+            android:id="@+id/rbEmbryologyQuestionSeekBarFeedbackFive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:padding="@dimen/_15sdp"
+            android:button="@android:color/transparent"
+            android:background="@drawable/custume_radio_button_background"
+            android:gravity="center"
+            android:text="aldsjnlasdn" />
+
+        <RadioButton
+            android:id="@+id/rbEmbryologyQuestionSeekBarFeedbackSix"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:gravity="center"
+            android:padding="@dimen/_15sdp"
+            android:button="@android:color/transparent"
+            android:background="@drawable/custume_radio_button_background"
+            android:text="akshfajfnasdnjhfkjashnfkjabdsfhkjb" />
+    </RadioGroup>
+
+
+</LinearLayout>
+
+
+

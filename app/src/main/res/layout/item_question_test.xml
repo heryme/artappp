@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+   >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/padding_8"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/_12sdp"
+            android:layout_height="@dimen/_12sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:src="@drawable/right_aerrow"/>
+
+        <com.artproficiencyapp.common.RegularTextview
+            android:id="@+id/rvThirdExceName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:drawablePadding="@dimen/padding_18"
+            android:gravity="left|center"
+            android:padding="5dp"
+            android:text="dd"
+            android:layout_weight="1"
+            android:textColor="@color/black_alpha_50"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#F0F2F4" />
+</LinearLayout>

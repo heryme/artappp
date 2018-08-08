@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context=".test.activity.TestFinishActivity">
+
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        app:title="@string/results"
+        android:layout_gravity="center"
+
+        android:textSize="@dimen/font_size_24"
+        app:titleTextColor="@color/White" >
+
+        <com.artproficiencyapp.common.RegularTextview
+            android:layout_width="match_parent"
+            android:text="@string/results"
+            android:gravity="center"
+            android:textColor="@color/White"
+            android:textSize="@dimen/_18sdp"
+            android:layout_height="?actionBarSize" />
+    </android.support.v7.widget.Toolbar>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_200sdp"
+                android:src="@drawable/ic_app_icon"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_gravity="center">
+
+
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:background="#EFEFEF" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:padding="@dimen/_10sdp"
+                    android:gravity="center"
+                    android:weightSum="1">
+
+                    <com.artproficiencyapp.common.RegularTextview
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:text="@string/total_question_attemped"
+                        android:textSize="@dimen/_15sdp" />
+
+                    <com.artproficiencyapp.common.RegularTextview
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:maxLength="3"
+                        android:textStyle="bold"
+                        android:minLines="1"
+                        android:text="30"
+                        android:textSize="@dimen/_15sdp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:background="#EFEFEF" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:padding="@dimen/_10sdp"
+                    android:gravity="center"
+                    android:weightSum="1">
+
+                    <com.artproficiencyapp.common.RegularTextview
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/total_correct_answer"
+                        android:textSize="@dimen/_15sdp" />
+
+                    <com.artproficiencyapp.common.RegularTextview
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:maxLength="3"
+                        android:minLines="1"
+                        android:textStyle="bold"
+                        android:text="20"
+                        android:textSize="@dimen/_15sdp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:background="#EFEFEF" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:padding="@dimen/_10sdp"
+                    android:gravity="center"
+                    android:weightSum="1">
+
+                    <com.artproficiencyapp.common.RegularTextview
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/total_obtained"
+                        android:textSize="@dimen/_15sdp" />
+
+                    <com.artproficiencyapp.common.RegularTextview
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:maxLength="3"
+                        android:minLines="1"
+                        android:text="25"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/_15sdp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:background="#EFEFEF" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:padding="@dimen/_10sdp"
+                    android:gravity="center"
+                    android:weightSum="1">
+
+                    <com.artproficiencyapp.common.RegularTextview
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/grade"
+                        android:textSize="@dimen/_15sdp" />
+
+                    <com.artproficiencyapp.common.RegularTextview
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:maxLength="3"
+                        android:minLines="1"
+                        android:text="10%"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/_15sdp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:background="#EFEFEF" />
+
+
+                <Button
+                    android:id="@+id/btnResultOk"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/_26sdp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="55dp"
+                    android:background="@drawable/btn_signup"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="@string/ok"
+                    android:textColor="@color/White" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+</LinearLayout>

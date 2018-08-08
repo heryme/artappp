@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/White"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_18">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="@dimen/finger_scan_h_w"
+            android:layout_height="@dimen/finger_scan_h_w"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/padding_22"
+            android:src="@drawable/ic_action_scan_finger" />
+
+        <com.artproficiencyapp.common.RegularTextview
+            android:id="@+id/tvScannerMsg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/desc_fingerprint"
+            android:textSize="@dimen/font_size_16" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imgDialogCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:padding="@dimen/padding_5"
+        android:src="@android:drawable/ic_menu_close_clear_cancel"
+        android:tint="@color/black_alpha_80" />
+</RelativeLayout>

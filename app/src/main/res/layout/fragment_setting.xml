@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.commanfragment.SettingFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.artproficiencyapp.common.RegularTextview
+            android:id="@+id/txtEditProfile"
+            style="@style/txt_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="@string/edit_profile" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.artproficiencyapp.common.RegularTextview
+                style="@style/txt_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/notification_" />
+
+            <android.support.v7.widget.SwitchCompat
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_30sdp"
+                android:gravity="center"
+                app:thumbTint="@color/Yellow"
+                app:trackTint="#EAEAEA"
+                android:layout_gravity="center"
+                android:layout_marginEnd="@dimen/_5sdp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.artproficiencyapp.common.RegularTextview
+                style="@style/txt_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/night_mode" />
+
+            <android.support.v7.widget.SwitchCompat
+                android:id="@+id/switchSettingNightMode"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_30sdp"
+                android:gravity="center"
+                app:trackTint="#EAEAEA"
+                app:thumbTint="#6D7A80"
+                android:layout_gravity="center"
+                android:layout_marginEnd="@dimen/_5sdp"/>
+        </LinearLayout>
+
+
+
+        <com.artproficiencyapp.common.RegularTextview
+            android:id="@+id/txtReplayTutorial"
+            style="@style/txt_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/replay_tutorial" />
+
+        <com.artproficiencyapp.common.RegularTextview
+            android:id="@+id/txtInviteFriends"
+            style="@style/txt_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/invite_friend" />
+
+
+        <com.artproficiencyapp.common.RegularTextview
+            android:id="@+id/txtChangePassword"
+            style="@style/txt_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/change_password" />
+
+        <com.artproficiencyapp.common.RegularTextview
+            android:id="@+id/txtHelpAndFeedBack"
+            style="@style/txt_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/help_feedback" />
+
+        <com.artproficiencyapp.common.RegularTextview
+            android:id="@+id/txtTearmAndCondition"
+            style="@style/txt_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/terms_condition" />
+
+        <com.artproficiencyapp.common.RegularTextview
+            android:id="@+id/txtAboutsUs"
+            style="@style/txt_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/about_us" />
+
+        <com.artproficiencyapp.common.RegularTextview
+            android:id="@+id/txtLogout"
+            style="@style/txt_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/logout_" />
+
+    </LinearLayout>
+</ScrollView>

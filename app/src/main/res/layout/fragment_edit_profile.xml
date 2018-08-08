@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.student.StudentEditProfileFragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fadeScrollbars="true"
+        android:scrollbarStyle="outsideOverlay">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_10">
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/padding_22" />
+
+            <RelativeLayout
+                android:layout_width="@dimen/profile_circle_h_w"
+                android:layout_height="@dimen/profile_circle_h_w"
+                android:layout_gravity="center"
+                android:background="@drawable/dashed_circle">
+
+                <com.facebook.drawee.view.SimpleDraweeView
+                    android:id="@+id/imgProfileViewStu"
+                    android:layout_width="@dimen/profile_img_h_w"
+                    android:layout_height="@dimen/profile_img_h_w"
+                    android:layout_centerInParent="true"
+                    fresco:placeholderImage="@drawable/ic_add_photo"
+                    fresco:roundAsCircle="true" />
+
+            </RelativeLayout>
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/padding_18" />
+
+            <EditText
+                android:id="@+id/etStuUpdateName"
+                style="@style/edt_style"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:drawableLeft="@drawable/ic_name"
+                android:hint="@string/edit_profile_stu_name"
+                android:inputType="textCapSentences"
+                android:padding="@dimen/padding_16" />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/padding_12" />
+
+
+
+
+
+            <EditText
+                android:id="@+id/etStuUpdateEmail"
+                style="@style/edt_style"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:drawableLeft="@drawable/ic_email_large"
+                android:hint="@string/signup_email"
+                android:editable="false"
+                android:inputType="textEmailAddress"
+                android:padding="@dimen/padding_16" />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/padding_12" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/edt_h_w_56"
+                android:background="@drawable/edt_round_corner"
+                android:focusable="false">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/padding_10"
+                    android:src="@drawable/ic_call_large" />
+
+                <!--<Spinner-->
+                <!--android:id="@+id/spDirEditCountryCode"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_weight="0.40"/>-->
+
+                <EditText
+                    android:id="@+id/etstuUpdatePhoNum"
+                    style="@style/edt_style"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/edt_h_w_56"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.60"
+                    android:background="@null"
+                    android:digits="0123456789"
+                    android:drawablePadding="0dp"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:hint="@string/signup_pho_num"
+                    android:inputType="none"
+                    android:maxLength="16"
+                    android:padding="@dimen/padding_16" />
+            </LinearLayout>
+
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/padding_12" />
+
+
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/padding_30" />
+
+            <Button
+                android:id="@+id/btnStuUpdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_left_15"
+                android:background="@drawable/btn_signup"
+                android:text="UPDATE"
+                android:textAllCaps="true"
+                android:textColor="@color/White"
+                android:textSize="@dimen/font_size_18" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:gravity="center"
+    android:padding="@dimen/padding_5"
+    android:background="@color/color_app_base"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/ivRowExpanableFirstLevel"
+        android:layout_width="20dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="@dimen/padding_5"
+        android:src="@drawable/excepandable_down"/>
+
+    <com.artproficiencyapp.common.RegularTextview
+        android:id="@+id/rowSecondText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="left|center"
+        android:padding="10dp"
+         android:layout_marginRight="@dimen/padding_5"
+        android:textColor="@color/White"
+        android:textSize="18sp" />
+
+</LinearLayout>

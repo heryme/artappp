@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RadioGroup
+        android:id="@+id/radioGroupEmbryologyQuestionSliderWithOptionWithOneButton"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rbEmbryologyQuestionSliderWithOptionWithOneButtonOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:gravity="center"
+            android:text="nasldkfnaskldfnkasnfkasndfkjansdkfjnaskjfnaksnfasdnjk" />
+
+        <RadioButton
+            android:id="@+id/rbEmbryologyQuestionSliderWithOptionWithOneButtonTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:gravity="center"
+            android:text="haksdfhkasdh" />
+
+        <RadioButton
+            android:id="@+id/rbEmbryologyQuestionSliderWithOptionWithOneButtonThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:gravity="center"
+            android:text="hakfhaksfh" />
+
+        <RadioButton
+            android:id="@+id/rbEmbryologyQuestionSliderWithOptionWithOneButtonFour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:gravity="center"
+            android:text="ahdjfhakdsfhaksfhakh" />
+
+        <RadioButton
+            android:id="@+id/rbrbEmbryologyQuestionSliderWithOptionWithOneButtonFive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:gravity="center"
+            android:text="ddd" />
+    </RadioGroup>
+</LinearLayout>

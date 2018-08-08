@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TextView android:layout_width="21dp"
+    android:layout_height="21dp"
+    android:layout_gravity="center_vertical"
+    android:background="@drawable/menu_count_circle"
+    android:textColor="@color/White"
+    android:textSize="10sp"
+    android:gravity="center"
+    android:hint="635"
+    android:inputType="number"
+    android:padding="1dp"
+    android:textColorHint="@color/White"
+    android:textStyle="bold"
+    xmlns:android="http://schemas.android.com/apk/res/android" />
+
+
+
+

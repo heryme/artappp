@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:padding="@dimen/_5sdp"
+    android:layout_margin="@dimen/_5sdp"
+    android:background="@drawable/bg_img"
+    android:orientation="vertical">
+
+    <com.artproficiencyapp.common.RegularTextview
+        android:id="@+id/txtLabStatisticsReport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Report 1"
+        android:textColor="@color/White"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:textSize="@dimen/_18sdp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:weightSum="2">
+
+        <com.artproficiencyapp.common.RegularTextview
+            android:id="@+id/txtLabStatisticsDate"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableStart="@drawable/calendar"
+            android:drawablePadding="5dp"
+            android:text="14/5/2018"
+            android:textColor="@color/White"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="normal"
+            android:layout_marginStart="6dp"/>
+
+        <com.artproficiencyapp.common.RegularTextview
+            android:id="@+id/txtLabStatisticsTime"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="6dp"
+            android:drawableEnd="@drawable/clock"
+            android:drawablePadding="@dimen/_5sdp"
+            android:text="04:5 AM"
+            android:gravity="right"
+            android:textColor="@color/White"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="normal"
+            android:layout_weight="1"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

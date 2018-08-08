@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_10sdp"
+    android:orientation="horizontal">
+
+    <com.artproficiencyapp.common.RegularTextview
+        android:id="@+id/tvRowTestTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_10sdp"
+        android:gravity="left"
+        android:layout_weight="1"
+        android:textColor="@color/Black"
+        android:text="GGGGGGG" />
+
+    <com.artproficiencyapp.common.RegularTextview
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/_5sdp"
+        android:gravity="center"
+        android:layout_weight="10"
+        android:background="@drawable/ic_more"/>
+
+</LinearLayout>
